@@ -24,6 +24,10 @@ Usage:
 * Go to `./code/` and run `UTE_3D_SG_reco.m`
 * Code is not optimized for speed, the total processing time is ~30 minutes
 
+Data:
+------
+* Mice datasets corresponding to the paper are available here : https://data.mendeley.com/datasets/vhnvp57b6f/draft?a=e004f3c0-78a9-4d2a-8de3-ff90b32791a6
+
 Folder Structure:
 --------
 

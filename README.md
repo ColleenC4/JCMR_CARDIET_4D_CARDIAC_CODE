@@ -2,7 +2,7 @@
 
 
 ### What is this repository for? ###
-This repository includes code to download input data, reconstruct, analyze, and generate figures for a magnetic resonance cardiac sequence as published under "Self-gated 5D Cardiac Magnetic REsonance in Mice Model : A detailed study" in Journal of Cardiovascular Magnetic Resonance.
+This repository includes code to download input data, reconstruct, analyze, and generate figures for a magnetic resonance cardiac sequence as published under "Self-gated 5D Cardiac Magnetic Resonance in Mice Model : A detailed study" in Journal of Cardiovascular Magnetic Resonance.
 
 ### Setup ###
 

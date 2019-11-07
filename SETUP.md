@@ -1,10 +1,11 @@
 # SETUP #
-MRI Cardiet et al., Self-gated 5D Cardiac Magnetic REsonance in Mice Model : A detailed study
+JCMR Cardiet et al., Self-gated 5D Cardiac Magnetic Resonance in Mice Model : A detailed study
 =============================
 
 Requirements:
 -------------
 * MATLAB  - for reconstruction, processing, and figure generation
+* gpuNUFFT 2.0.8 - find more information at https://github.com/andyschwarzl/gpuNUFFT 
 
 Tested Configuration:
 ---------------------
@@ -20,7 +21,7 @@ Installation Options:
 
 Usage:
 ------
-* Go to `./code/` and run `batch_proc.m`
+* Go to `./code/` and run `UTE_3D_SG_reco.m`
 * Code is not optimized for speed, the total processing time is ~30 minutes
 
 Folder Structure:

@@ -33,7 +33,4 @@ Folder Structure:
 --------
 
 `./code/` - (with downloaded contributors) contains all code necessary to reconstruct, process, and generate figures
-`./data_in/` - the data input directory
-`./data_out/` - the reconstruction and processing output directory
-`./figures/` - the figure output directory
 

@@ -8,7 +8,7 @@ This repository includes code to download input data, reconstruct, analyze, and 
 
 See SETUP.md
 
-### Licesnse ###
+### License ###
 
 See LICENSE
 

@@ -22,6 +22,7 @@ Installation Options:
 Usage:
 ------
 * Go to `./code/` and run `UTE_3D_SG_reco.m`
+* Choose the type of reconstruction you want (As a function of the respiratory or the cardiac cycle)
 * Code is not optimized for speed, the total processing time is ~30 minutes
 
 Data:

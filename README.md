@@ -30,12 +30,12 @@ Data:
 
 Usage:
 ------
-* Download datasets and place them in the 'data_in' file
-* Go to `./code/` and run `UTE_3D_SG_reco.m`
-* Choose the number of mouse you want to study
-* Choose the type of reconstruction you want (As a function of the respiratory or the cardiac cycle)
-* Code is not optimized for speed, the total processing time is ~20 minutes
-* Reconstructed images will be in the 'data_out' file
+* 1 - Download one or many dataset(s) and place them JCMR_Cardiet_5DCardiac/data_in
+* 2 - Go to `./code/` and run `UTE_3D_SG_reco.m`
+* 3 - A first window will appear to choose the mouse you want to study (1 for the first mouse of the study, 2 for the second, ..)
+* 4 - In the step 'Data position in each cardiac phases', a second window will appear, choose the reconstruction you want (Respiratory, Original Cardiac or Whole Cardiac)
+* 5 - The corresponding images will be reconstructed, as different graphs explaining experiment parameters and interpolation steps
+* 6 - Image matrix will be saved in the file JCMR_Cardiet_5DCardiac/data_out
 
 Folder Structure:
 --------

@@ -9,10 +9,9 @@ clc
 mice = {'1','2','3','4','5','6','7'};
 [study] = listdlg('ListString',mice);
 
-
 %% DATA READING
 
-p=readParams_Bruker('DirPath',['./data_in/',num2str(study)]); % Sequence parameters
+p=readParams_Bruker('dirPath',['./data_in/',num2str(study)]); % Sequence parameters
 
 sizeR2=p.ACQ_size(1)/2;
 sizeR=p.PVM_Matrix(1);

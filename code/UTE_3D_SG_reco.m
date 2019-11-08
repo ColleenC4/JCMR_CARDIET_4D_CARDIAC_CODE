@@ -12,7 +12,7 @@ mice = {'1','2','3','4','5','6','7'};
 
 %% DATA READING
 
-p=readParams_Bruker('DirPath',['./data_in/',study]); % Sequence parameters
+p=readParams_Bruker('DirPath',['./data_in/',num2str(study)]); % Sequence parameters
 
 sizeR2=p.ACQ_size(1)/2;
 sizeR=p.PVM_Matrix(1);
@@ -415,6 +415,6 @@ for i=1:Ntime
       image_name(:,:,:,i)=sqrt(abs(im{i}{1}.^2)+abs(im{i}{2}.^2)+abs(im{i}{3}.^2)+abs(im{i}{4}.^2));
 end
 
-
+save(['./data_out/',num2str(study),'_image'],'image_name')
 imagine(image_name)
 

@@ -24,15 +24,18 @@ Installation Options:
 * OR clone the git repository to your local machine
 * OR fork to your own repository and then clone the git repository to your local machine
 
-Usage:
-------
-* Go to `./code/` and run `UTE_3D_SG_reco.m`
-* Choose the type of reconstruction you want (As a function of the respiratory or the cardiac cycle)
-* Code is not optimized for speed, the total processing time is ~30 minutes
-
 Data:
 ------
 * Mice datasets used in the paper are available here : https://data.mendeley.com/datasets/vhnvp57b6f/draft?a=e004f3c0-78a9-4d2a-8de3-ff90b32791a6
+
+Usage:
+------
+* Download datasets and place them in the 'data_in' file
+* Go to `./code/` and run `UTE_3D_SG_reco.m`
+* Choose the number of mouse you want to study
+* Choose the type of reconstruction you want (As a function of the respiratory or the cardiac cycle)
+* Code is not optimized for speed, the total processing time is ~20 minutes
+* Reconstructed images will be in the 'data_out' file
 
 Folder Structure:
 --------

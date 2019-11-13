@@ -414,6 +414,6 @@ for i=1:Ntime
       image_name(:,:,:,i)=sqrt(abs(im{i}{1}.^2)+abs(im{i}{2}.^2)+abs(im{i}{3}.^2)+abs(im{i}{4}.^2));
 end
 
-save(['./data_out/',num2str(study),'_image'],'image_name')
+save(['../data_out/',num2str(study),'_image'],'image_name')
 imagine(image_name)
 
